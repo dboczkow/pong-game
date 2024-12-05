@@ -1,0 +1,23 @@
+// Static tasks configuration.
+//
+// Example:
+[
+  {
+    "label": "CMake: build",
+    "command": "cd $ZED_WORKTREE_ROOT/build && cmake .. && make",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "no_focus",
+    "hide": "on_success",
+    "shell": "system"
+  },
+  {
+    "label": "Run: Run build",
+    "command": "cd $ZED_WORKTREE_ROOT/build && ./pong",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "no_focus",
+    "hide": "never",
+    "shell": "system"
+  }
+]
